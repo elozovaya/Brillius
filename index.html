@@ -12,6 +12,7 @@
 	<link href="css/main.css" rel="stylesheet">
 </head>
 <body>
+<img src="show_index.jpg" alt="" class="pp">
 	<header class="header navbar navbar-fixed-top">
 		<div class="container ">
 			<div class="header-holder">
@@ -20,70 +21,72 @@
 				</div>
 				<nav id="main-nav" class="navbar">
 					<ul class="nav navbar-nav navbar-right main-nav hidden-xs">
-						<li role="presentation" class="active"><a class="big-shadow" href="#">Home</a></li>
-						<li role="presentation"><a class="big-shadow" href="#">About</a></li>
-						<li role="presentation"><a class="big-shadow" href="#">Team</a></li>
-						<li rolebn="presentation"><a class="big-shadow" href="#">Portfolio</a></li>
-						<li role="presentation"><a class="big-shadow" href="#">Blog</a></li>
-						<li role="presentation"><a class="big-shadow" href="#">Shortcodes</a></li>
-						<li role="presentation"><a class="big-shadow" href="#">Contact</a></li>
+						<li role="presentation" class="active"><a class="big-shadow" href="#home">Home</a></li>
+						<li role="presentation"><a class="big-shadow" href="#about">About</a></li>
+						<li role="presentation"><a class="big-shadow" href="#team">Team</a></li>
+						<li rolebn="presentation"><a class="big-shadow" href="#portfolio">Portfolio</a></li>
+						<li role="presentation"><a class="big-shadow" href="#blog">Blog</a></li>
+						<li role="presentation"><a class="big-shadow" href="#shortcodes">Shortcodes</a></li>
+						<li role="presentation"><a class="big-shadow" href="#contact">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
 		</div>
 	</header>
-	<section class="home border">
+	<section class="home border" id="home">
 		<div class="container">
 			<header class="heading">
 				<h2 class="h1 big-shadow">Creative Minds at Work</h2>
 				<strong class="title big-shadow">We're a team of developers who are passionate about our work</strong>
 			</header>
-			<div class="carousel">
-				<div class="slide">
-					<img src="images/slide-01.png" class="img-responsive">
-				</div>
-				<div class="slide">
-					<img src="images/slide-02.jpg" class="img-responsive">
-				</div>
-				<div class="slide">
-					<img src="images/slide-01.png" class="img-responsive">
-				</div>
-				<div class="slide">
-					<img src="images/slide-02.jpg" class="img-responsive">
+			<div class="carousel-holder">
+				<div class="carousel" id="carousel">
+					<div class="slide">
+						<img src="images/slide-01.png" class="img-responsive">
+					</div>
+					<div class="slide">
+						<img src="images/slide-02.jpg" class="img-responsive">
+					</div>
+					<div class="slide">
+						<img src="images/slide-01.png" class="img-responsive">
+					</div>
+					<div class="slide">
+						<img src="images/slide-02.jpg" class="img-responsive">
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="about border">
+	<section class="about border" id="about">
 		<div class="container">
 			<header class="heading">
 				<h2 class="h1 big-shadow"><span class="decor">
 				Our Amazing Skills</span></h2>
 				<strong class="title big-shadow">Here is what we love and do best</strong>
 			</header>
-			<div class="row">
+			<div class="row skill-holder">
 				<div class="col-sm-6 col-md-3">
 					<div class="skill ">
 						<span class="skill__title">Web Design</span>
-						<input class="knob" value="90" class="dial" data-width="100%" data-fgColor="#fff" data-displayInput=false data-skin="tron" data-thickness=".2" data-displayPrevious=true>
+						<input class="knob" value="86" class="dial" readonly data-skin="tron" data-width="100%" data-bgColor="transparent" data-fgColor="rgba(0,0,0,0.26)" data-displayInput="false" data-thickness=".15" data-displayPrevious=true>
 					</div>
 				</div>
 				<div class="col-sm-6 col-md-3">
 					<div class="skill ">
 						<span class="skill__title">Print Design</span>
-						<input class="knob" value="70" class="dial" data-width="100%" data-fgColor="#fff" data-displayInput=false data-skin="tron" data-thickness=".2" data-displayPrevious=true>
+						<input class="knob" value="72" class="dial" readonly data-skin="tron" data-width="100%" data-bgColor="transparent" data-fgColor="rgba(0,0,0,0.26)" data-displayInput="false" data-thickness=".15" data-displayPrevious=true>
 					</div>
 				</div>
 				<div class="col-sm-6 col-md-3">
 					<div class="skill ">
 						<span class="skill__title">Branding</span>
-						<input class="knob" value="40" class="dial" data-width="100%" data-fgColor="#fff" data-displayInput=false data-skin="tron" data-thickness=".2" data-displayPrevious=true>
+						<input class="knob" value="45" class="dial" readonly data-skin="tron" data-width="100%" data-bgColor="transparent" data-fgColor="rgba(0,0,0,0.26)" data-displayInput="false" data-thickness=".15" data-displayPrevious=true>
 					</div>
 				</div>
 				<div class="col-sm-6 col-md-3">
 					<div class="skill ">
 						<span class="skill__title">Motion</span>
-						<input class="knob" value="25" class="dial" data-width="100%" data-fgColor="#fff" data-displayInput=false data-skin="tron" data-thickness=".2" data-displayPrevious=true>
+						<input class="knob" value="26" class="dial" readonly data-skin="tron" data-width="100%" data-bgColor="transparent" data-fgColor="rgba(0,0,0,0.26)" data-displayInput="false" data-thickness=".15" data-displayPrevious=true>
 					</div>
 				</div>
 			</div>
@@ -106,7 +109,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="team border">
+	<section class="team border" id="team">
 		<div class="container">
 			<header class="heading">
 				<h2 class="h1 big-shadow"><span class="decor">Our Awesome Staff</span></h2>
@@ -121,7 +124,7 @@
 						<div class="caption">
 							<h4 class="name"><span class="decor-band big-shadow">Amazing Sara</span></h4>
 							<p class="small-shadow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac dapibus dui. Phasellus a sapien eget diam convallis blandit.</p>
-							<p class="small-shadow">Pellentesque quam metus, sagittis quis bibendum aliquam, imperdiet in erat. Integeregestas lectus sed ligula sagittis a lacinia turpis suscipit.</p>
+							<p class="small-shadow">Pellentesque quam metus, sagittis quis bibendum aliquam, imperdiet in erat.</p>
 							<div class="socials clearfix">
 								<a class="socials-bg" href=""><svg class="icon icon-twitter"><use xlink:href="images/sprite.svg#icon-twitter"></use></svg></a>
 								<a class="socials-bg" href=""><svg class="icon icon-facebook"><use xlink:href="images/sprite.svg#icon-facebook"></use></svg>
@@ -138,7 +141,7 @@
 						<div class="caption">
 							<h4 class="name"><span class="decor-band big-shadow">Mike the Coder</span></h4>
 							<p class="small-shadow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac dapibus dui. Phasellus a sapien eget diam convallis blandit.</p>
-							<p class="small-shadow">Pellentesque quam metus, sagittis quis bibendum aliquam, imperdiet in erat. Integeregestas lectus sed ligula sagittis a lacinia turpis suscipit.</p>
+							<p class="small-shadow">Pellentesque quam metus, sagittis quis bibendum aliquam, imperdiet in erat.</p>
 							<div class="socials">
 								<a class="socials-bg" href=""><svg class="icon icon-twitter"><use xlink:href="images/sprite.svg#icon-twitter"></use></svg></a>
 								<a class="socials-bg" href=""><svg class="icon icon-facebook"><use xlink:href="images/sprite.svg#icon-facebook"></use></svg>
@@ -155,7 +158,7 @@
 						<div class="caption">
 							<h4 class="name"><span class="decor-band big-shadow">Creative Amy</span></h4>
 							<p class="small-shadow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac dapibus dui. Phasellus a sapien eget diam convallis blandit.</p>
-							<p class="small-shadow">Pellentesque quam metus, sagittis quis bibendum aliquam, imperdiet in erat. Integeregestas lectus sed ligula sagittis a lacinia turpis suscipit.</p>
+							<p class="small-shadow">Pellentesque quam metus, sagittis quis bibendum aliquam, imperdiet in erat.</p>
 							<div class="socials">
 								<a class="socials-bg" href=""><svg class="icon icon-twitter"><use xlink:href="images/sprite.svg#icon-twitter"></use></svg></a>
 								<a class="socials-bg" href=""><svg class="icon icon-facebook"><use xlink:href="images/sprite.svg#icon-facebook"></use></svg>
@@ -172,7 +175,7 @@
 						<div class="caption">
 							<h4 class="name"><span class="decor-band big-shadow">Jim the Designer</span></h4>
 							<p class="small-shadow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac dapibus dui. Phasellus a sapien eget diam convallis blandit.</p>
-							<p class="small-shadow">Pellentesque quam metus, sagittis quis bibendum aliquam, imperdiet in erat. Integeregestas lectus sed ligula sagittis a lacinia turpis suscipit.</p>
+							<p class="small-shadow">Pellentesque quam metus, sagittis quis bibendum aliquam, imperdiet in erat.</p>
 							<div class="socials">
 								<a class="socials-bg" href=""><svg class="icon icon-twitter"><use xlink:href="images/sprite.svg#icon-twitter"></use></svg></a>
 								<a class="socials-bg" href=""><svg class="icon icon-facebook"><use xlink:href="images/sprite.svg#icon-facebook"></use></svg>
@@ -184,7 +187,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="portfolio border">
+	<section class="portfolio border" id="portfolio">
 		<div class="container">
 			<header class="heading">
 				<h2 class="h1 big-shadow">Our best works</h2>
@@ -199,97 +202,99 @@
 					</ul>
 				</div>
 			</header>
-			<div class="row">
-				<div class="col-sm-6 col-md-3">
-					<div class="circle">
-						<img class="img-responsive img-circle" src="images/portfolio-img01.jpg" alt="">
+			<div class="portfolio-holder">
+				<div class="row">
+					<div class="col-sm-6 col-md-3">
+						<div class="circle">
+							<img class="img-responsive img-circle" src="images/portfolio-img01.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="circle">
+							<img class="img-responsive img-circle" src="images/portfolio-img02.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="circle">
+							<img class="img-responsive img-circle" src="images/portfolio-img03.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="circle">
+							<img class="img-responsive img-circle" src="images/portfolio-img04.jpg" alt="">
+						</div>
 					</div>
 				</div>
-				<div class="col-sm-6 col-md-3">
-					<div class="circle">
-						<img class="img-responsive img-circle" src="images/portfolio-img02.jpg" alt="">
+				<div class="row">
+					<div class="col-sm-6 col-md-3">
+						<div class="circle">
+							<img class="img-responsive img-circle" src="images/portfolio-img05.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="circle">
+							<img class="img-responsive img-circle" src="images/portfolio-img06.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="circle">
+							<img class="img-responsive img-circle" src="images/portfolio-img07.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="circle">
+							<img class="img-responsive img-circle" src="images/portfolio-img08.jpg" alt="">
+						</div>
 					</div>
 				</div>
-				<div class="col-sm-6 col-md-3">
-					<div class="circle">
-						<img class="img-responsive img-circle" src="images/portfolio-img03.jpg" alt="">
+				<div class="row">
+					<div class="col-sm-6 col-md-3">
+						<div class="circle">
+							<img class="img-responsive img-circle" src="images/portfolio-img09.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="circle">
+							<img class="img-responsive img-circle" src="images/portfolio-img10.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="circle">
+							<img class="img-responsive img-circle" src="images/portfolio-img11.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="circle">
+							<img class="img-responsive img-circle" src="images/portfolio-img12.jpg" alt="">
+						</div>
 					</div>
 				</div>
-				<div class="col-sm-6 col-md-3">
-					<div class="circle">
-						<img class="img-responsive img-circle" src="images/portfolio-img04.jpg" alt="">
+				<div class="row">
+					<div class="col-sm-6 col-md-3">
+						<div class="circle">
+							<img class="img-responsive img-circle" src="images/portfolio-img13.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="circle">
+							<img class="img-responsive img-circle" src="images/portfolio-img14.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="circle">
+							<img class="img-responsive img-circle" src="images/portfolio-img15.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="circle">
+							<img class="img-responsive img-circle" src="images/portfolio-img16.jpg" alt="">
+						</div>
 					</div>
 				</div>
+						</div>
 			</div>
-			<div class="row">
-				<div class="col-sm-6 col-md-3">
-					<div class="circle">
-						<img class="img-responsive img-circle" src="images/portfolio-img05.jpg" alt="">
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-3">
-					<div class="circle">
-						<img class="img-responsive img-circle" src="images/portfolio-img06.jpg" alt="">
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-3">
-					<div class="circle">
-						<img class="img-responsive img-circle" src="images/portfolio-img07.jpg" alt="">
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-3">
-					<div class="circle">
-						<img class="img-responsive img-circle" src="images/portfolio-img08.jpg" alt="">
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-6 col-md-3">
-					<div class="circle">
-						<img class="img-responsive img-circle" src="images/portfolio-img09.jpg" alt="">
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-3">
-					<div class="circle">
-						<img class="img-responsive img-circle" src="images/portfolio-img10.jpg" alt="">
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-3">
-					<div class="circle">
-						<img class="img-responsive img-circle" src="images/portfolio-img11.jpg" alt="">
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-3">
-					<div class="circle">
-						<img class="img-responsive img-circle" src="images/portfolio-img12.jpg" alt="">
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-6 col-md-3">
-					<div class="circle">
-						<img class="img-responsive img-circle" src="images/portfolio-img13.jpg" alt="">
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-3">
-					<div class="circle">
-						<img class="img-responsive img-circle" src="images/portfolio-img14.jpg" alt="">
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-3">
-					<div class="circle">
-						<img class="img-responsive img-circle" src="images/portfolio-img15.jpg" alt="">
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-3">
-					<div class="circle">
-						<img class="img-responsive img-circle" src="images/portfolio-img16.jpg" alt="">
-					</div>
-				</div>
-			</div>
-		</div>
 	</section>
-	<section class="blog border">
+	<section class="blog border" id="blog">
 		<div class="container">
 			<header class="heading">
 				<h2 class="h1 big-shadow"><span class="decor">Blog</span></h2>
@@ -309,7 +314,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="media-body">
+								<div class="media-body post">
 									<h4 class="h3 media-heading big-shadow"><span class="decor-line">Latest post from the blog</span></h4>
 									<p class="small-shadow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac dapibus dui. Phasellus a sapien eget diam convallis blandit.  Pellentesque quam metus, sagittis quis bibendum aliquam, imperdiet in erat.</p>
 									<p class="small-shadow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac dapibus dui. Phasellus a sapien eget diam convallis blandit.  Pellentesque quam metus, sagittis quis bibendum aliquam, imperdiet in erat.<a href="#" class="underline"> Read more >></a></p>
@@ -327,7 +332,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="media-body">
+								<div class="media-body post">
 									<h4 class="h3 media-heading big-shadow"><span class="decor-line">Another post</span></h4>
 									<p class="small-shadow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac dapibus dui. Phasellus a sapien eget diam convallis blandit.  Pellentesque quam metus, sagittis quis bibendum aliquam, imperdiet in erat.</p>
 									<p class="small-shadow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac dapibus dui. Phasellus a sapien eget diam convallis blandit.  Pellentesque quam metus, sagittis quis bibendum aliquam, imperdiet in erat.<a href="#" class="underline"> Read more >></a></p>
@@ -336,7 +341,7 @@
 						</div>
 						<div class="article">
 							<div class="media">
-								<div class="media-left media-middle article-left">
+								<div class="media-left media-middle ">
 									<div class="circle-holder">
 										<div class="circle">
 											<a href="#">
@@ -345,7 +350,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="media-body">
+								<div class="media-body post">
 									<h4 class="h3 media-heading big-shadow"><span class="decor-line">Another post</span></h4>
 									<p class="small-shadow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac dapibus dui. Phasellus a sapien eget diam convallis blandit.  Pellentesque quam metus, sagittis quis bibendum aliquam, imperdiet in erat.</p>
 									<p class="small-shadow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac dapibus dui. Phasellus a sapien eget diam convallis blandit.  Pellentesque quam metus, sagittis quis bibendum aliquam, imperdiet in erat.<a href="#" class="underline"> Read more >></a></p>
@@ -364,7 +369,7 @@
 						</div>
 						<div class="item">
 							<h4 class="big-shadow"><span class="decor-band">Categories</span></h4>
-							<ul class="small-shadow">
+							<ul class="small-shadow categories">
 								<li><a href="#">Our News</a></li>
 								<li><a href="#">Related projects</a></li>
 								<li><a href="#">Happy Holidays</a></li>
@@ -374,7 +379,7 @@
 							</ul>
 						</div>
 						<div class="item">
-							<h4 class="big-shadow"><span class="decor-band">Latest Tweets</span></h4>
+							<h4 class="big-shadow indent"><span class="decor-band">Latest Tweets</span></h4>
 							<div class="tweet">
 								<p class="small-shadow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac dapibus dui. <a href="#" class="underline">http://t.co/3qxiAwcf via @someuser</a></p>
 							</div>
@@ -390,27 +395,98 @@
 			</div>
 		</div>
 	</section>
-	<section class="team border">
+	<section class="shortcodes border" id="shortcodes">
 		<div class="container">
 			<header class="heading">
-				<h2 class="h1 big-shadow">Our Awesome Staff</h2>
-				<strong class="title big-shadow">Meet Our Peeps</strong>
+				<h2 class="h1 big-shadow"><span class="decor">Shortcodes</span></h2>
+				<strong class="title big-shadow"> We've included commonly used web elements. Enjoy!</strong>
 			</header>
-			<div class="row">
-				<div class="col-sm-3">
-					<div class="employees">
-						<img src="images/team-ava01.jpg" alt="">
-						
+			<div class="block">
+				<h3 class="big-shadow">Columns</h3>
+				<div class="row">
+					<div class="col-sm-6">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel purus vel nisl bibendum facilisis in eu dolor. Nam aliquet elit ut erat commodo egestas.</p>
+						<p>Vestibulum odio sapien, luctus eget scelerisque quis, imperdiet sit amet urna. In consequat ipsum nec orci scelerisque id suscipit eros rhoncus. Mauris commodo tincidunt nunc tempor varius. Cras tincidunt odio ac tellus molestie sit amet sodales nunc suscipit. Aliquam turpis nisi, consequat quis rutrum in, viverra ac turpis.</p>
+						<p>Suspendisse volutpat viverra elit.  Nam aliquet elit ut erat commodo egestas. Vestibulum odio sapien, luctus eget scelerisque quis, imperdiet sit amet urna. In consequat ipsum nec orci scelerisque id suscipit eros rhoncus.</p>
+					</div>
+					<div class="col-sm-6">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel purus vel nisl bibendum facilisis in eu dolor. Nam aliquet elit ut erat commodo egestas.</p>
+						<p>Vestibulum odio sapien, luctus eget scelerisque quis, imperdiet sit amet urna. In consequat ipsum nec orci scelerisque id suscipit eros rhoncus. Mauris commodo tincidunt nunc tempor varius. Cras tincidunt odio ac tellus molestie sit amet sodales nunc suscipit. Aliquam turpis nisi, consequat quis rutrum in, viverra ac turpis.</p>
+						<p>Suspendisse volutpat viverra elit.  Nam aliquet elit ut erat commodo egestas. Vestibulum odio sapien, luctus eget scelerisque quis, imperdiet sit amet urna. In consequat ipsum nec orci scelerisque id suscipit eros rhoncus.</p>
 					</div>
 				</div>
-				<div class="col-sm-3">
-
+				<div class="row">
+					<div class="col-sm-4">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel purus vel nisl bibendum facilisis in eu dolor. Nam aliquet elit ut erat commodo egestas. Vestibulum odio sapien, luctus eget scelerisque quis, imperdiet sit amet urna.</p>
+					</div>
+					<div class="col-sm-4">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel purus vel nisl bibendum facilisis in eu dolor. Nam aliquet elit ut erat commodo egestas. Vestibulum odio sapien, luctus eget scelerisque quis, imperdiet sit amet urna.</p>
+					</div>
+					<div class="col-sm-4">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel purus vel nisl bibendum facilisis in eu dolor. Nam aliquet elit ut erat commodo egestas. Vestibulum odio sapien, luctus eget scelerisque quis, imperdiet sit amet urna.</p>
+					</div>
 				</div>
-				<div class="col-sm-3">
-
+				<div class="row">
+					<div class="col-sm-3">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel purus vel nisl bibendum facilisis in eu dolor. Nam aliquet elit ut erat.</p>
+					</div>
+					<div class="col-sm-3">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel purus vel nisl bibendum facilisis in eu dolor. Nam aliquet elit ut erat.</p>
+					</div>
+					<div class="col-sm-3">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel purus vel nisl bibendum facilisis in eu dolor. Nam aliquet elit ut erat.</p>
+					</div>
+					<div class="col-sm-3">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel purus vel nisl bibendum facilisis in eu dolor. Nam aliquet elit ut erat.</p>
+					</div>
 				</div>
-				<div class="col-sm-3">
+			</div>
+			<div class="block">
+				<h3 class="big-shadow"><span class="decor-line">Text elements</span></h3>
+				<div class="row">
+					<div class="col-sm-4">
+						<ul>
+							<li><a href="">lorem ipsum dolor sit amet</a></li>
+							<li><a href="">consectetur adipiscing elit, curabitur</a></li>
+							<li><a href="">nisl bibendum facilisis in eu dolor</a></li>
+							<li><a href="">ut erat commodo egestas vestibulum</a></li>
+							<li><a href="">luctus eget scelerisque quis, imperdiet</a></li>
+							<li><a href="">consequat ipsum nec orci scelerisque</a></li>
+							<li><a href="">auris commodo tincidunt nunc tempor varius</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-4">
+						<ol>
+							<li><a href="">lorem ipsum dolor sit amet</a></li>
+							<li><a href="">consectetur adipiscing elit, curabitur</a></li>
+							<li><a href="">nisl bibendum facilisis in eu dolor</a></li>
+							<li><a href="">ut erat commodo egestas vestibulum</a></li>
+							<li><a href="">luctus eget scelerisque quis, imperdiet</a></li>
+							<li><a href="">consequat ipsum nec orci scelerisque</a></li>
+							<li><a href="">auris commodo tincidunt nunc tempor varius</a></li>
+						</ol>
+					</div>
+					<div class="col-sm-4">
+						<div class="recall clearfix">
+								<p class="small-shadow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel purus vel nisl bibendum facilisis in eu dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel purus vel nisl bibendum facilisor.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contact border" id="contact">
+		<div class="container">
+			<header class="heading">
+				<h2 class="h1 big-shadow"><span class="decor">Contact Us</span></h2>
+				<strong class="title big-shadow">We are aways open to your questions and comments</strong>
+			</header>
+			<div class="row">
+				<div class="col-sm-7">
 					
+				</div>
+				<div class="col-sm-5">
+
 				</div>
 			</div>
 		</div>
