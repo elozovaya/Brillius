@@ -69,6 +69,12 @@ h4 {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
+@media (max-width: 767px) {
+  .header-holder {
+    margin: 0 -15px;
+  }
+}
+
 @media (max-width: 991px) {
   .header-holder .navbar-header {
     text-align: center;
@@ -102,6 +108,20 @@ h4 {
 .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a.active {
   background: rgba(0, 0, 0, 0.2);
   color: #fff;
+}
+
+@media (max-width: 992px) {
+  .navbar .navbar-right {
+    float: none !important;
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar .navbar-right li {
+    display: inline-block;
+    float: none;
+  }
 }
 
 .nav-select {
@@ -140,17 +160,6 @@ h4 {
 
 .carousel-holder {
   padding: 0 0 0 13px;
-  /*	overflow: hidden;
-
-	.carousel{
-		width: 9999px;
-	}
-	.slide{
-		float: left;
-	}
-	.slick-slider{
-		width: auto;
-	}*/
 }
 
 .slick-slider .slick-prev,
@@ -223,6 +232,13 @@ h4 {
   position: relative;
   padding: 5px;
   margin: 0 auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.32);
+}
+
+@media (max-width: 768px) {
+  .about .skill {
+    margin: 0 auto 30px;
+  }
 }
 
 .about .skill .skill__title {
@@ -335,6 +351,13 @@ h4 {
   left: -999px;
 }
 
+@media (max-width: 480px) {
+  .decor:before, .decor:after {
+    content: '';
+    display: none;
+  }
+}
+
 .decor-band {
   display: inline-block;
   position: relative;
@@ -395,7 +418,7 @@ h4 {
   border-radius: 50%;
   display: inline-block;
   margin: 0 10px 0 0;
-  padding: 5px 0;
+  padding: 7px 0;
 }
 
 .team .caption .socials-bg:last-child {
@@ -443,6 +466,18 @@ h4 {
 
 .portfolio .portfolio-holder .row {
   margin-bottom: 28px;
+}
+
+@media (max-width: 768px) {
+  .portfolio .portfolio-holder .row {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio .portfolio-holder .circle {
+    margin-bottom: 30px;
+  }
 }
 
 .filter {
@@ -528,7 +563,7 @@ h4 {
 .article .circle-holder {
   width: 230px;
   height: 230px;
-  margin: 0 0 40px 0;
+  margin: 0 auto 40px;
 }
 
 @media (min-width: 768px) {
