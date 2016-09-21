@@ -104,4 +104,8 @@ function initMobileNav(){
 				// }
 			}
 		});
+
+		$('#accordion').collapse({
+		toggle: false
+		});
 	});

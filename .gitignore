@@ -1,11 +1,17 @@
-# файлы
+﻿# файлы
+
 *.psd
+
 *.ini
+
 *.cfg
 
+ 
+
 # папка
-scss
+
 input/
+
 node_modules/
 
 
